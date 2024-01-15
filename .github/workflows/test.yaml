@@ -12,5 +12,6 @@ jobs:
         run: |
 
           # Your ML workflow goes here
+          pip install scikit-learn
           pip install -r requirements.txt
           python test.py
